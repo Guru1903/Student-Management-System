@@ -29,8 +29,10 @@ function isCourse(value: string): value is Courses {
 
 function App() {
   const [students, setStudents] = useState<StudentsData[]>([
-    { id: 1, name: 'Arun', age: 22, course: 'React' },
-    { id: 2, name: 'Priya', age: 21, course: 'Angular' },
+    { id: 1, name: 'Libi', age: 24, course: 'React' },
+    { id: 2, name: 'Guru', age: 23, course: 'Angular' },
+    { id: 3, name: 'Karthi', age: 21, course: '.Net' },
+    { id: 4, name: 'Monika', age: 15, course: 'React' },
   ])
 
   const [currentPage, dispatch] = useReducer(
